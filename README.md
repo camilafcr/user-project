@@ -15,7 +15,7 @@
 #### Mockito - testes;
 #### Spring MockMVC - testes;
 #### SpringFox - para documentar os endpoints no Swagger;
-#### Lombok - para auxiliar no desenvolvimento. É necessário baixar um plugin para utilizá-lo;
+#### Lombok - para auxiliar no desenvolvimento. É necessário baixar um plugin para utilizá-lo.
 
 # 3. Instalação
 #### 3.1 Banco de dados
