@@ -1,0 +1,12 @@
+version: "3"
+services:
+  database:
+    image: postgres
+    container_name: "postgres"
+    environment:
+      - POSTGRES_PASSWORD=sql
+    volumes:
+      - "./data/postgres:/var/lib/postgresql/data"
+      - "./database-scripts/scripts.sql:/docker-entrypoint-initdb.d/scripts.sql"
+    ports:
+      - 5432:5432
